@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    image: vehicles_object_detection
+    container_name:   vehicles-object-detection-container
