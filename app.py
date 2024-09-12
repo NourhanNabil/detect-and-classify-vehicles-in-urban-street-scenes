@@ -21,7 +21,7 @@ if uploaded_file is not None:
 
         cv2.imwrite(temp_file_path, image)
 
-        result = model(temp_file_path,imgsz=480)
+        result = model(temp_file_path, imgsz=480, conf=0.8)
 
         detection_plot = result[0].plot()
 
