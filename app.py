@@ -59,7 +59,7 @@ if submit_button:
             image_bgr = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
             cv2.imwrite(temp_file_path, image_bgr)
 
-        result = model(temp_file_path, imgsz=480, conf=0.8)
+        result = model(temp_file_path, imgsz=480, conf=0.7)
 
         detection_plot = result[0].plot()
 
