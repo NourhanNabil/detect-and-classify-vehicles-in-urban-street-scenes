@@ -2,6 +2,8 @@
 
 This project demonstrates vehicle object detection using YOLOv8 on the Vehicles-coco dataset from Roboflow. The model is deployed with Streamlit and containerized using Docker. The YOLO model has been converted to an ONNX format for faster and better inference performance.
 
+link to the app hosted on streamlit [streamlit](https://detect-and-classify-vehicles.streamlit.app/).
+
 ## Dataset Used
 The Vehicles-coco dataset includes 18,000 images annotated with four classes: car, bus, motorcycle, and truck. You can find the dataset on [Roboflow](https://universe.roboflow.com/vehicle-mscoco/vehicles-coco).
 
